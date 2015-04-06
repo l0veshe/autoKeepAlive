@@ -14,7 +14,7 @@ VERSION = "0.4"
 #############################################
 OUT_FILE = "/tmp/keepalived.conf"
 #模板#########################################
-FILE_HEAD="""#configure for keepalived by dongjin@limei.com,human.gold@gmail.com
+FILE_HEAD="""#configure for keepalived by 
 #global define
 
 global_defs {
@@ -219,8 +219,6 @@ def generate():
 
 #获取执行命令参数
 def parse():
-	print "######董金电话:18601069608##########"
-        print "######HANK电话:15804268950##########"
 	#opt = OptionParser()
 	keepalived = generate()
 
