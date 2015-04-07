@@ -1,0 +1,17 @@
+{
+"vrrp_group_name":"java",
+"group":{
+    "Java":{
+        "interface":"eth0",
+        "auth_type":"PASS",
+        "auth_pass":"asfdasdfa",
+        "virtual":{
+            "vip":"10.27.20.43",
+            "real_server":["10.27.20.31","10.27.20.34"],
+            "port":[7009,7011,7012,7015],
+            "router_ip":"61",
+            "per_time":"30"
+            }
+        }
+    }
+}
